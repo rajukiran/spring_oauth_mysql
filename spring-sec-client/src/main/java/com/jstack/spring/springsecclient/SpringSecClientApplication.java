@@ -1,12 +1,12 @@
-package com.jstack.spring.springsecserver;
+package com.jstack.spring.springsecclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringSecServerApplication {
+public class SpringSecClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringSecServerApplication.class, args);
+		SpringApplication.run(SpringSecClientApplication.class, args);
 	}
 }
